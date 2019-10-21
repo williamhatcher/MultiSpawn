@@ -23,7 +23,7 @@ excluded_worlds:
 ## Commands
 Command | Permission | Description
 --------|------------|------------
-/addSpawn <x y z> [pitch] [yaw] | `multispawn.add` | Adds a new spawnpoint at your location. <x y z>, [pitch], [yaw] are optional.
+/addSpawn [x y z] [pitch] [yaw] | `multispawn.add` | Adds a new spawnpoint at your location. [x y z], [pitch], [yaw] are optional.
 /listSpawns | `multispawn.list` | List all spawnpoints.
 /nearestSpawn | `multispawn.nearest` | Teleports you to nearest spawnpoint.
 /nearestSpawn [player] | `multispawn.nearest.others` | Teleports [player] to their nearest spawnpoint.
