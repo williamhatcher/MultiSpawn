@@ -33,3 +33,6 @@ Command | Permission | Description
 ## Support
 You're welcome to create an issue if you find a bug report, or reach out to me on Discord:
 **William_CTO#3981**
+
+## Downloading
+Download the plugin on the [releases](https://github.com/williamhatcher/MultiSpawn/releases) page.
