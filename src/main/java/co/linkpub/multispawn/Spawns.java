@@ -33,7 +33,7 @@ class Spawns {
                 spawnsConfig.save(configFile);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            Bukkit.getLogger().severe("Unable to create spawns.yml! Please manually create it.");
         }
     }
 
