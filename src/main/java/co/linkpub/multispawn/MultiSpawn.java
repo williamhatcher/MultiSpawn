@@ -1,5 +1,6 @@
 package co.linkpub.multispawn;
 
+import org.bstats.bukkit.Metrics;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -13,7 +14,7 @@ import org.bukkit.plugin.java.annotation.plugin.author.Author;
 import java.util.Objects;
 
 @SuppressWarnings({"WeakerAccess", "RedundantSuppression"})
-@Plugin(name = "MultiSpawn", version = "1.0.0")
+@Plugin(name = "MultiSpawn", version = "1.0.1")
 @Author("William 'psyFi' Hatcher (William_CTO)")
 @Website("https://hatcher.work/multispawn")
 public class MultiSpawn extends JavaPlugin implements Listener {
@@ -24,6 +25,9 @@ public class MultiSpawn extends JavaPlugin implements Listener {
         Objects.requireNonNull(this.getCommand("nearestSpawn")).setExecutor(new CommandNearestSpawn());
         Objects.requireNonNull(this.getCommand("listSpawns")).setExecutor(new CommandListSpawns());
         Objects.requireNonNull(this.getCommand("realSpawn")).setExecutor(new CommandRealSpawn());
+
+        // bStats
+        Metrics metrics = new Metrics(this);
         getLogger().info("MultiSpawn Enabled");
     }
 
