@@ -30,7 +30,7 @@ class Spawns {
                 // get default spawn location
                 loc.add(w.getSpawnLocation());
                 spawnsConfig.set(w.getName(), loc);
-                spawnsConfig.save(configFile);
+                spawnsConfig.save(configFile)
             }
         } catch (IOException e) {
             Bukkit.getLogger().severe("Unable to create spawns.yml! Please manually create it.");
