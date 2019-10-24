@@ -5,6 +5,7 @@
   <artifactId>MultiSpawn</artifactId>
   <version>1.0.1</version>
   <build>
+    <finalName>MultiSpawm</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-shade-plugin</artifactId>

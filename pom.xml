@@ -44,7 +44,9 @@
         </dependency>
     </dependencies>
 
+    <packaging>jar</packaging>
     <build>
+        <finalName>MultiSpawn</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
