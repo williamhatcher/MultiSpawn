@@ -16,7 +16,7 @@ import java.util.Objects;
 @SuppressWarnings({"WeakerAccess", "RedundantSuppression"})
 @Plugin(name = "MultiSpawn", version = "1.0.1")
 @Author("William 'psyFi' Hatcher (William_CTO)")
-@Website("https://hatcher.work/multispawn")
+@Website("https://hatcher.work/multispawn"
 public class MultiSpawn extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
